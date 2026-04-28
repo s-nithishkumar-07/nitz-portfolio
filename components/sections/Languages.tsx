@@ -163,7 +163,7 @@ export default function Languages() {
                     initial={{ width: 0 }}
                     whileInView={{ width: `${lang.level}%` }}
                     viewport={{ once: true }}
-                    transition={{ duration: 1, delay: 0.3 + i * 0.08, ease: "easeOut" }}
+                    transition={{ duration: 1, delay: 0.3 + i * 0.08, ease: [0.33, 1, 0.68, 1] }}
                     style={{
                       height: "100%",
                       borderRadius: "4px",

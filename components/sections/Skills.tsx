@@ -105,7 +105,7 @@ export default function Skills() {
                           initial={{ width: 0 }}
                           whileInView={{ width: `${skill.level}%` }}
                           viewport={{ once: true }}
-                          transition={{ duration: 1.2, delay: catIdx * 0.1 + skillIdx * 0.1, ease: "easeOut" }}
+                          transition={{ duration: 1.2, delay: catIdx * 0.1 + skillIdx * 0.1, ease: [0.33, 1, 0.68, 1] }}
                           style={{
                             height: "100%", borderRadius: "999px",
                             background: `linear-gradient(90deg, ${category.color}, ${category.color}70)`,
@@ -208,7 +208,7 @@ export default function Skills() {
                       initial={{ width: 0 }}
                       whileInView={{ width: `${lang.level}%` }}
                       viewport={{ once: true }}
-                      transition={{ duration: 1.4, delay: i * 0.12, ease: "easeOut" }}
+                      transition={{ duration: 1.4, delay: i * 0.12, ease: [0.33, 1, 0.68, 1] }}
                       style={{
                         height: "100%", borderRadius: "999px",
                         background: `linear-gradient(90deg, ${lang.color}90, ${lang.color})`,
