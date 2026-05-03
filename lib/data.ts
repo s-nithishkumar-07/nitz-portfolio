@@ -93,7 +93,7 @@ export const skills = [
       { name: "English", level: 100 },
       { name: "Kannada", level: 40 },
       { name: "Hindi", level: 30 },
-      { name: "Telugu", level: 30 },
+      { name: "Telugu", level: 40 },
     ],
   },
 ];
