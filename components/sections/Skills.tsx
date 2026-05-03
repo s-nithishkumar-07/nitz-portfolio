@@ -7,9 +7,11 @@ import { useBreakpoint } from "@/hooks/useBreakpoint";
 const LANGUAGES = [
   { name: "Tamil",     flag: "🇮🇳", level: 100, label: "Native",         color: "#00D9FF" },
   { name: "English",   flag: "🇬🇧", level: 100, label: "Native",         color: "#00D9FF" },
-  { name: "Kannada",   flag: "🇮🇳", level: 40,  label: "Beginner",       color: "#8B5CF6" },
-  { name: "Telugu",    flag: "🇮🇳", level: 40,  label: "Beginner",       color: "#FF6B6B" },
+  { name: "Malayalam", flag: "🇮🇳", level: 80,  label: "Fluent",         color: "#8B5CF6" },
+  { name: "Kannada",   flag: "🇮🇳", level: 40,  label: "Beginner",       color: "#2DD4BF" },
+  { name: "Telugu",    flag: "🇮🇳", level: 40,  label: "Beginner",       color: "#FF9F43" },
   { name: "Hindi",     flag: "🇮🇳", level: 30,  label: "Beginner",       color: "#FFD700" },
+  { name: "German",    flag: "🇩🇪", level: 40,  label: "Beginner",       color: "#FF6B6B" },
 ];
 
 const TECH_SKILLS = skills.filter((s) => s.category !== "Languages");

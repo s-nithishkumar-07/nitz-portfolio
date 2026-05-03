@@ -91,9 +91,11 @@ export const skills = [
     items: [
       { name: "Tamil", level: 100 },
       { name: "English", level: 100 },
+      { name: "Malayalam", level: 80 },
       { name: "Kannada", level: 40 },
-      { name: "Hindi", level: 30 },
       { name: "Telugu", level: 40 },
+      { name: "Hindi", level: 30 },
+      { name: "German", level: 40 },
     ],
   },
 ];
