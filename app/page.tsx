@@ -39,9 +39,9 @@ export default function HomePage() {
         <Skills />
         <Experience />
         <Projects />
-        <CreativeWorks />
+        {/* <CreativeWorks /> */}
         <PhotoStrip />
-        <Blog />
+        {/* <Blog /> */}
         <Resume />
         <Contact />
       </main>

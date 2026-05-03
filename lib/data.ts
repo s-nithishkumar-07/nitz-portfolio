@@ -32,7 +32,10 @@ export const skills = [
     color: "#00D9FF",
     items: [
       { name: "React.js", level: 85 },
+      { name: "Next.js", level: 80 },
+      { name: "Angular.js", level: 70 },
       { name: "JavaScript", level: 88 },
+      { name: "Tailwind CSS", level: 90 },
       { name: "HTML5", level: 92 },
       { name: "CSS3", level: 88 },
       { name: "TypeScript", level: 70 },
@@ -88,9 +91,9 @@ export const skills = [
     items: [
       { name: "Tamil", level: 100 },
       { name: "English", level: 100 },
-      { name: "Malayalam", level: 80 },
-      { name: "Hindi", level: 60 },
-      { name: "German", level: 40 },
+      { name: "Kannada", level: 40 },
+      { name: "Hindi", level: 30 },
+      { name: "Telugu", level: 30 },
     ],
   },
 ];
