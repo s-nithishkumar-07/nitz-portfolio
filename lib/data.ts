@@ -368,6 +368,38 @@ export const experience = [
       "Built custom web solutions using MERN stack and modern UI frameworks",
     ],
   },
+  {
+    role: "Junior Artist",
+    company: "Jigarthanda DoubleX",
+    location: "Tamil Nadu",
+    duration: "2023",
+    type: "Film Production",
+    icon: "🎥",
+    color: "#EAB308",
+    description:
+      "Worked as a Junior Artist in the Tamil feature film Jigarthanda DoubleX. This opportunity provided incredible exposure to large-scale movie production and professional cinematography.",
+    highlights: [
+      "Directed by acclaimed filmmaker Karthik Subburaj",
+      "Gained on-set experience in a major feature film production",
+      "Observed professional cinematography, lighting, and direction up close",
+    ],
+  },
+  {
+    role: "Junior Artist",
+    company: "Viduthalai Part 2",
+    location: "Tamil Nadu",
+    duration: "Upcoming",
+    type: "Film Production",
+    icon: "🎬",
+    color: "#EF4444",
+    description:
+      "Worked as a Junior Artist in the highly anticipated Tamil feature film Viduthalai Part 2. Experienced the rigorous production environment of a major film.",
+    highlights: [
+      "Directed by the visionary filmmaker Vetrimaaran",
+      "Experienced a large-scale period drama production environment",
+      "Learned about professional filmmaking processes and on-set coordination",
+    ],
+  },
 ];
 
 export const achievements = [
