@@ -175,7 +175,7 @@ export default function Contact() {
                 style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.08)", borderRadius: "24px", padding: isMobile ? "28px 24px" : "40px", display: "flex", flexDirection: "column", gap: "20px", boxSizing: "border-box" }}>
                 <div>
                   <label style={{ display: "block", fontSize: "12px", fontWeight: 600, color: "var(--text-secondary)", marginBottom: "8px" }}>Your Name</label>
-                  <input type="text" required placeholder="John Doe" value={form.name}
+                  <input type="text" required placeholder="Enter your full name" value={form.name}
                     onChange={(e) => setForm((f) => ({ ...f, name: e.target.value }))}
                     style={inputStyle} id="contact-name" />
                 </div>
