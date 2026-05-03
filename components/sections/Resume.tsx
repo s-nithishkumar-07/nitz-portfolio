@@ -105,7 +105,7 @@ export default function Resume() {
             <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#fff", margin: 0 }}>Core Skills</h3>
           </div>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "10px" }}>
-            {skills.flatMap((cat) => cat.items.map((s) => s.name)).map((name) => (
+            {skills.filter((cat) => cat.category !== "Languages").flatMap((cat) => cat.items.map((s) => s.name)).map((name) => (
               <span key={name} style={{ fontSize: "12px", padding: "6px 14px", borderRadius: "8px", background: "rgba(139,92,246,0.08)", border: "1px solid rgba(139,92,246,0.15)", color: "rgba(255,255,255,0.7)" }}>
                 {name}
               </span>
