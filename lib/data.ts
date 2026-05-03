@@ -20,8 +20,8 @@ export const personalInfo = {
   I believe the best digital experiences are both technically excellent and visually powerful — and that's exactly what I strive to build.`,
   socials: {
     github: "https://github.com/S-NithishKumar-07",
-    linkedin: "https://linkedin.com/in/nithishkumar",
-    instagram: "https://instagram.com/nithishkumar",
+    linkedin: "https://www.linkedin.com/in/nithishkumar-s-?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    instagram: "https://www.instagram.com/wanderer__nova?igsh=M2p3ZG0xZ2RoaGpk",
   },
 };
 
