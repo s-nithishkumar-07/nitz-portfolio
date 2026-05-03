@@ -1,5 +1,5 @@
 "use client";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform, Variants } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { ArrowDown, Download, ExternalLink } from "lucide-react";
 import { personalInfo } from "@/lib/data";
@@ -83,11 +83,11 @@ export default function Hero() {
   const videoOpacity = useTransform(scrollY, [0, 800], [0.4, 0]);
   const videoY       = useTransform(scrollY, [0, 800], [0, 150]);
 
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: {},
     visible: { transition: { staggerChildren: 0.15 } },
   };
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { opacity: 0, y: 30 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.7, ease: [0.33, 1, 0.68, 1] } },
   };
